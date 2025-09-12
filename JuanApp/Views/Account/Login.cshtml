@@ -1,0 +1,29 @@
+﻿@using JuanApp.Models.ViewModels
+@model UserLoginVm
+<div class="col-lg-6">
+    <div class="login-reg-form-wrap">
+        <h2>Sign In</h2>
+        <form  method="post">
+            <div class="single-input-item">
+                <input asp-for="UsernameorEmail" type="email" placeholder="Email or Username" required />
+            </div>
+            <div class="single-input-item">
+                <input asp-for="Password" placeholder="Enter your Password" required />
+            </div>
+            <div class="single-input-item">
+                <div class="login-reg-form-meta d-flex align-items-center justify-content-between">
+                    <div class="remember-meta">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="rememberMe">
+                            <label class="custom-control-label" for="rememberMe">Remember Me</label>
+                        </div>
+                    </div>
+                    <a href="#" class="forget-pwd">Forget Password?</a>
+                </div>
+            </div>
+            <div class="single-input-item">
+                <button type="submit" class="btn">Login</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,316 @@
+﻿@using JuanApp.Models.ViewModels
+@model HomeVm
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<section class="hero-slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="hero-slider-active slick-arrow-style slick-arrow-style_hero slick-dot-style">
+                    <!-- single slider item start -->
+                    @if (Model?.sliders != null && Model.sliders.Any())
+                    {
+                        foreach (var slide in Model.sliders)
+                        {
+                            <div class="hero-single-slide">
+                                <div class="hero-slider-item bg-img"
+                                     data-bg="/assets/img/slider/@slide.ImageUrl">
+                                    <div class="hero-slider-content slide-1">
+                                        <h5 class="slide-subtitle">@slide.TargetName</h5>
+                                        <h2 class="slide-title">@slide.Title</h2>
+                                        <p class="slide-desc">@slide.Description</p>
+                                        <a href="shop.html" class="btn btn-hero">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- hero slider section end -->
+<!-- service features start -->
+<section class="service-policy-area">
+    <div class="container">
+        <div class="row">
+            <!-- single policy item start -->
+          @foreach(var service in Model.services)
+            {
+                <div class="col-lg-4">
+                    <div class="service-policy-item mt-30 bg-1">
+                        <div class="policy-icon">
+                            <img src="~/assets/img/icon/@service.Icon" alt="policy icon" />
+                        </div>
+                        <div class="policy-content">
+                            <h5 class="policy-title">@service.Title</h5>
+                            <p class="policy-desc">@service.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+
+		
+            <!-- single policy item start -->
+            <!-- single policy item start -->
+            
+            <!-- single policy item start -->
+        </div>
+    </div>
+</section>
+<!-- service features end -->
+<!-- our product area start -->
+<section class="our-product section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title text-center">
+                    <h2 class="title">@Model.productitles.Title</h2>
+                    <p class="sub-title">
+						@Model.productitles.Description
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="product-carousel-4 mbn-50 slick-row-15 slick-arrow-style">
+                    <!-- product single item start -->
+                    @foreach(var product in Model.products)
+                    {
+                        <div class="product-item mb-50">
+                            <div class="product-thumb">
+                                <a href="product-details.html">
+                                    <img src="~/assets/img/product/@product.Imageurl" alt="" />
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <h5 class="product-name">
+                                    <a href="product-details.html">@product.Name</a>
+                                </h5>
+                                <div class="price-box">
+                                    <span class="price-regular">$@product.Price</span>
+                                    <span class="price-old"><del>$@product.DiscountPrice</del></span>
+                                </div>
+                                <div class="product-action-link">
+                                    <a href="@product.WishlistUrl" data-toggle="tooltip" title="Wishlist">
+                                        <i class="@product.WishListIcon"></i>
+                                    </a>
+                                    <a href="@product.AddtoCartUrl" data-toggle="tooltip" title="Add To Cart">
+                                        <i class="@product.AddtocartIcon"></i>
+                                    </a>
+                                    <a href="@product.QuickViewUrl" data-toggle="modal" data-target="#quick_view">
+                                        <span data-toggle="tooltip" title="Quick View">
+                                            <i class="@product.QuickViewIcon"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    <!-- product single item start -->
+                    <!-- product single item start -->
+                    
+                    <!-- product single item start -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- our product area end -->
+<!-- banner statistic area start -->
+<div class="banner-statistics">
+    <div class="container">
+        <div class="row no-gutters mtn-30">
+           
+            @foreach (var item in Model.productAdvertising)
+            {
+                <div class="col-md-6">
+                    <div class="img-container mt-30">
+                        <a href="@item.DetailUrl">
+                            <img src="~/assets/img/banner/@item.ImageUrl"
+                                 alt="banner-image"/>
+                        </a>
+                        <div class="banner-text">
+                            <h5 class="banner-subtitle">@item.Title</h5>
+                            <h3 class="banner-title">@Html.Raw(item.Description)</h3>
+                        </div>
+                    </div>
+                </div>
+            }  
+        </div>
+</div>
+<!-- banner statistic area end -->
+<!-- new products area start -->
+<section class="top-seller-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title text-center">
+                    <h2 class="title">@Model.newProductsTitles.Title</h2>
+                    <p class="sub-title">
+							@Model.newProductsTitles.Description
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-5 col-md-5">
+                <div class="product-banner">
+                    <a href="@Model.newProductsTitles.LinkUrl">
+                       <img src="~/assets/img/banner/@Model.newProductsTitles.ImageUrl"
+                             alt="product banner" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-7 col-md-7">
+                <div class="top-seller-carousel slick-row-15 mtn-30">
+                    <!-- product item start -->
+                  
+                    <!-- product item start -->
+                    <!-- product item start -->
+                 @foreach(var newpro in Model.productsnew)
+                        {
+                            <div class="slide-item">
+                                <div class="pro-item-small mt-30">
+                                    <div class="product-thumb">
+                                        <a href="product-details.html">
+                                            <img src="~/assets/img/product/@newpro.ImageUrl" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="pro-small-content">
+                                        <h6 class="product-name">
+                                            <a href="product-details.html">@newpro.Name</a>
+                                        </h6>
+                                        <div class="price-box">
+                                            <span class="price-regular">$@newpro.Price</span>
+                                            <span class="price-old"><del>$@newpro.DiscountPrice</del></span>
+                                        </div>
+                                        <div class="ratings">
+                                            <span><i class="@newpro.StarIcons"></i></span>
+                                            <span><i class="@newpro.StarIcons"></i></span>
+                                            <span><i class="@newpro.StarIcons"></i></span>
+                                            <span><i class="@newpro.StarIcons"></i></span>
+                                            <span><i class="@newpro.StarIcons"></i></span>
+                                        </div>
+                                        <div class="product-link-2">
+                                            <a href="#" data-toggle="tooltip" title="Wishlist">
+                                                <i class="@newpro.WishListIcon"></i>
+                                             </a>
+                                            <a href="#" data-toggle="tooltip" title="Add To Cart">
+                                                <i class="@newpro.AddtoCArtIcon"></i>
+                                            </a>
+                                            <a href="#"
+                                               data-toggle="modal"
+                                               data-target="#quick_view">
+                                                <span data-toggle="tooltip" title="Quick View">
+                                                    <i class="@newpro.QuickViewIcon"></i>
+                                                
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        <!-- product item start -->
+                    <!-- product item start -->
+                   
+                    <!-- product item start -->
+                    <!-- product item start -->
+                   
+                    <!-- product item start -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- new products area end -->
+<!-- latest blog area start -->
+<section class="latest-blog-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title text-center">
+                    <h2 class="title">@Model.blogtitle.Title</h2>
+                    <p class="sub-title">
+                       @Model.blogtitle.Description
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="blog-carousel-active slick-row-15">
+                    <!-- blog single item start -->
+                   @foreach(var blogs in Model.blogs)
+                        {
+                            <div class="blog-post-item">
+                                <div class="blog-thumb">
+                                    <a href="blog-details.html">
+                                        <img src="~/assets/img/blog/@blogs.ImageUrl" alt="blog thumb" />
+                                    </a>
+                                </div>
+                                <div class="blog-content">
+                                    <h5 class="blog-title">
+                                        <a href="blog-details.html">
+                                            @blogs.Name
+                                        </a>
+                                    </h5>
+                                    <ul class="blog-meta">
+                                        <li><span>By: </span>Admin,</li>
+                                        <li><span>On: </span>14.07.2029</li>
+                                    </ul>
+                                    <a href="@blogs.ReadMore" class="read-more">Read More...</a>
+                                </div>
+                            </div>
+                        }
+                        <!-- blog single item start -->
+                    <!-- blog single item start -->
+                   
+                    <!-- blog single item start -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- latest blog area end -->
+<!-- brand area start -->
+<div class="brand-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="brand-active-carousel">
+                    <div class="brand-item">
+                        <a href="#">
+                           <img src="~/assets/img/brand/br1.png" alt="brand image" />
+                        </a>
+                    </div>
+                    <div class="brand-item">
+                        <a href="#">
+                           <img src="~/assets/img/brand/br2.png" alt="brand image" />
+                        </a>
+                    </div>
+                    <div class="brand-item">
+                        <a href="#">
+                           <img src="~/assets/img/brand/br3.png" alt="brand image" />
+                        </a>
+                    </div>
+                    <div class="brand-item">
+                        <a href="#">
+                           <img src="~/assets/img/brand/br4.png" alt="brand image" />
+                        </a>
+                    </div>
+                    <div class="brand-item">
+                        <a href="#">
+                           <img src="~/assets/img/brand/br5.png" alt="brand image" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- brand area end -->
