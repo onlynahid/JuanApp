@@ -5,7 +5,8 @@
         <h2>Singup Form</h2>
         <form  method="post">
             <div class="single-input-item">
-                <input asp-for="Fullname" type="text" placeholder="Full Name" required />
+                <input asp-for="Fullname" type="text" placeholder="Full Name" required/>
+				<span asp-validation-for="Fullname" class="text-danger"></span>
             </div>
             <div class="single-input-item">
                 <input asp-for="Email" placeholder="Enter your Email" required />
@@ -14,11 +15,13 @@
                 <div class="col-lg-6">
                     <div class="single-input-item">
                         <input asp-for="Password" placeholder="Enter your Password" required />
+                        <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="single-input-item">
                         <input asp-for="ConfirmPassword" placeholder="Repeat your Password" required />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                     </div>
                 </div>
             </div>
@@ -35,6 +38,7 @@
             <div class="single-input-item">
                 <button type="submit"class="btn">Register</button>
             </div>
+            <div class="text-danger" asp-validation-summary="ModelOnly"></div>
         </form>
     </div>
 </div>

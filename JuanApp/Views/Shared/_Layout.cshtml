@@ -260,9 +260,13 @@
                                                 </ul>
                                             </li>
                                             <li><a href="contact-us.html">Contact us</a></li>
+                                            @if(User.Identity.IsAuthenticated)
+                                            {
+                                                <li><a asp-controller="Account" asp-action="MyAccount">@User.Identity.Name</a></li>
+                                            }
                                         </ul>
                                     </nav>
-                                    <!-- main menu navbar end -->
+                                   <!-- main menu navbar end -->
                                 </div>
                             </div>
                         </div>
@@ -282,9 +286,19 @@
                                                 <i class="ion-ios-gear-outline"></i>
                                             </a>
                                             <ul class="dropdown-list">
-                                                <li><a href="login-register.html">login</a></li>
-                                                <li><a href="login-register.html">register</a></li>
-                                                <li><a href="my-account.html">my account</a></li>
+                                                @if(User.Identity.IsAuthenticated)
+                                                {
+                                                    <li><a asp-controller="Account" asp-action="Logout">Logout</a></li>
+                                                    <li><a asp-controller="Account" asp-action="MyAccount">my account</a></li>
+                                                }
+                                                else
+                                                {
+                                                    <li><a asp-controller="Account" asp-action="Login">Login</a></li>
+                                                    <li><a asp-controller="Account" asp-action="Register">Register</a></li>
+                            
+                                                   
+												}
+
                                             </ul>
                                         </li>
                                         <li>
@@ -312,8 +326,8 @@
                     <div class="col-12">
                         <div class="mobile-main-header">
                             <div class="mobile-logo">
-                                <a href="index.html">
-                                    <img src="~/assets/img/logo/logo.png" alt="Brand Logo" />
+                                <a asp-controller="Home" asp-action="Index">
+                                    <img src="~/assets/img/logo/logo.png" alt="Brand Logo"/>
                                 </a>
                             </div>
                             <div class="mobile-menu-toggler">
@@ -541,7 +555,7 @@
                                     <a class="dropdown-item" href="login-register.html">
                                         login
                                     </a>
-                                    <a class="dropdown-item" href="login-register.html">register</a>
+                                    <a asp-controller="Account" asp-action="Register" class="dropdown-item" >register</a>
                                 </div>
                             </div>
                         </li>

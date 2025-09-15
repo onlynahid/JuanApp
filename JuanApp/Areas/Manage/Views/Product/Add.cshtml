@@ -1,0 +1,30 @@
+﻿
+@model Products
+<div class="container">
+    <div class="row">
+        <form method="post">
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Name</label>
+                <input asp-for="Name" class="form-control" id="exampleInputPassword1" placeholder="Name">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Price</label>
+                <input asp-for="Price" class="form-control" id="exampleInputPassword1" placeholder="Price" type="text">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">DiscountPrice</label>
+                <input asp-for="DiscountPrice" class="form-control" id="exampleInputPassword1" placeholder="DiscountPrice"type="text">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">ImageUrl</label>
+                <input asp-for="Imageurl" class="form-control" id="exampleInputPassword1" placeholder="ImageUrl">
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>

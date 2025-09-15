@@ -1,0 +1,154 @@
+﻿@model List<Products>
+@{
+	ViewData["Title"] = "Məhsullar";
+	Layout = "_AdminLayout";
+}
+
+<div class="main-container">
+	<div class="page-header text-center mb-4">
+		<h1 class="page-title"><i class="fas fa-box-open"></i> Məhsul İdarəetmə</h1>
+		<p class="page-subtitle">Bütün məhsullarınızı bir yerdə idarə edin</p>
+	</div>
+
+	<div class="row mb-3">
+		<div class="col-md-6">
+			<input type="text" class="search-input form-control" placeholder="Məhsul axtarın...">
+		</div>
+		<div class="col-md-6 text-end">
+			<a asp-area="Manage" asp-controller="Product" asp-action="Add" class="btn create-btn">
+				<i class="fas fa-plus"></i> Add Product
+			</a>
+		</div>
+	</div>
+
+	<table class="table modern-table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>DiscountPrice</th>
+				<th>Price</th>
+				<th>Image</th>
+				<th>Operations</th>
+
+
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var product in Model)
+			{
+				<tr>
+					<td class="product-name">@product.Name</td>
+					<td><span class="price-tag">@product.DiscountPrice</span></td>
+					<td><span class="discount-tag">@product.Price</span></td>
+					<td><img src="@product.Imageurl" class="image-preview" alt="Image"></td>
+					<td>
+						<a asp-controller="Product" asp-action="delete" asp-route-id="@product.Id" type="submit" class="btn btn-danger">Delete</a>
+						<a asp-controller="Product" asp-action="Edit" asp-route-id="@product.Id" type="submit" class="btn btn-danger">Edit</a>
+
+						<a asp-controller="Product" asp-action="Add" asp-route-id="@product.Id" type="submit" class="btn btn-danger">Add</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
+
+@section Styles {
+	<style>
+
+		.product-name {
+			font-weight: 600;
+			color: #2c3e50;
+		}
+
+		.price-tag {
+			background: linear-gradient(45deg, #2ecc71, #27ae60);
+			color: white;
+			padding: 5px 15px;
+			border-radius: 20px;
+			font-weight: bold;
+		}
+
+		.discount-tag {
+			background: linear-gradient(45deg, #e74c3c, #c0392b);
+			color: white;
+			padding: 5px 15px;
+			border-radius: 20px;
+			font-weight: bold;
+		}
+
+		.image-preview {
+			width: 60px;
+			height: 60px;
+			border-radius: 10px;
+			object-fit: cover;
+			border: 3px solid;
+			border-image: linear-gradient(45deg, #ff6b6b, #feca57) 1;
+			transition: all 0.3s ease;
+		}
+
+			.image-preview:hover {
+				transform: scale(1.2);
+				border-radius: 50%;
+			}
+
+		.action-buttons {
+			display: flex;
+			gap: 0.5rem;
+			justify-content: center;
+		}
+
+		.edit-btn {
+			background: linear-gradient(45deg, #3498db, #2980b9);
+			color: white;
+			border-radius: 20px;
+			padding: 8px 15px;
+		}
+
+			.edit-btn:hover {
+				background: linear-gradient(45deg, #2980b9, #3498db);
+				transform: translateY(-2px);
+				box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+			}
+
+		.delete-btn {
+			background: linear-gradient(45deg, #e74c3c, #c0392b);
+			color: white;
+			border-radius: 20px;
+			padding: 8px 15px;
+		}
+
+			.delete-btn:hover {
+				background: linear-gradient(45deg, #c0392b, #e74c3c);
+				transform: translateY(-2px);
+				box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+			}
+
+		.create-btn {
+			background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+			border-radius: 50px;
+			padding: 12px 30px;
+			color: white;
+			font-weight: 600;
+		}
+	</style>
+}
+
+@section Scripts {
+	<script>
+
+		document.querySelector('.search-input').addEventListener('input', function() {
+			const term = this.value.toLowerCase();
+			document.querySelectorAll('.modern-table tbody tr').forEach(row => {
+				const name = row.querySelector('.product-name').textContent.toLowerCase();
+				row.style.display = name.includes(term) ? '' : 'none';
+			});
+		});
+
+
+		document.querySelectorAll('.image-preview').forEach(img => {
+			img.addEventListener('mouseenter', () => img.style.transform = 'scale(1.2) rotate(5deg)');
+			img.addEventListener('mouseleave', () => img.style.transform = 'scale(1) rotate(0deg)');
+		});
+	</script>
+}
