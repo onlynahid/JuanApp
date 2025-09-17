@@ -40,11 +40,10 @@
 					<td class="product-name">@product.Name</td>
 					<td><span class="price-tag">@product.DiscountPrice</span></td>
 					<td><span class="discount-tag">@product.Price</span></td>
-					<td><img src="@product.Imageurl" class="image-preview" alt="Image"></td>
+					<td><img src="~/assets/img/product/@product.Imageurl" class="image-preview" alt="Image"></td>
 					<td>
 						<a asp-controller="Product" asp-action="delete" asp-route-id="@product.Id" type="submit" class="btn btn-danger">Delete</a>
 						<a asp-controller="Product" asp-action="Edit" asp-route-id="@product.Id" type="submit" class="btn btn-danger">Edit</a>
-
 						<a asp-controller="Product" asp-action="Add" asp-route-id="@product.Id" type="submit" class="btn btn-danger">Add</a>
 					</td>
 				</tr>

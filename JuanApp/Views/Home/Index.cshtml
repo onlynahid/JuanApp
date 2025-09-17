@@ -95,13 +95,13 @@
                                     <span class="price-old"><del>$@product.DiscountPrice</del></span>
                                 </div>
                                 <div class="product-action-link">
-                                    <a href="@product.WishlistUrl" data-toggle="tooltip" title="Wishlist">
+                                    <a href="#" data-toggle="tooltip" title="Wishlist">
                                         <i class="@product.WishListIcon"></i>
                                     </a>
-                                    <a href="@product.AddtoCartUrl" data-toggle="tooltip" title="Add To Cart">
+                                    <a asp-controller="Shop"asp-action="AddToCard" data-toggle="tooltip" title="Add To Cart">
                                         <i class="@product.AddtocartIcon"></i>
                                     </a>
-                                    <a href="@product.QuickViewUrl" data-toggle="modal" data-target="#quick_view">
+                                    <a href="#" data-toggle="modal" data-target="#quick_view">
                                         <span data-toggle="tooltip" title="Quick View">
                                             <i class="@product.QuickViewIcon"></i>
                                         </span>
@@ -199,7 +199,7 @@
                                             <a href="#" data-toggle="tooltip" title="Wishlist">
                                                 <i class="@newpro.WishListIcon"></i>
                                              </a>
-                                            <a href="#" data-toggle="tooltip" title="Add To Cart">
+                                            <a asp-controller="Home"asp-action="Add" data-toggle="tooltip" title="Add To Cart">
                                                 <i class="@newpro.AddtoCArtIcon"></i>
                                             </a>
                                             <a href="#"

@@ -1,23 +1,26 @@
-﻿using System.Threading.Tasks;
+﻿
+using JuanApp.Areas.Manage.ViewModels;
 using JuanApp.Models;
 using JuanApp.Models.ViewModels;
 using MailKit.Net.Smtp;
 using MailKit.Security;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MimeKit;
 using MimeKit.Text;
+using System.Threading.Tasks;
 
 namespace JuanApp.Controllers
 {
     public class Account
         (
-        UserManager<AppUser>userManager,
-        SignInManager<AppUser>signInManager,
+        UserManager<AppUser> userManager,
+        SignInManager<AppUser> signInManager,
         RoleManager<IdentityRole> RoleManager
 
         )
-        
+
         : Controller
     {
         [HttpGet]
@@ -38,9 +41,9 @@ namespace JuanApp.Controllers
                 return View(userRegisterVm);
             }
             var user = await userManager.FindByNameAsync(userRegisterVm.Fullname);
-            if(user != null)
+            if (user != null)
             {
-                ModelState.AddModelError("Fullname","Fullname is already taken");
+                ModelState.AddModelError("Fullname", "Fullname is already taken");
                 return View(userRegisterVm);
             }
             user = new AppUser
@@ -50,15 +53,15 @@ namespace JuanApp.Controllers
                 UserName = userRegisterVm.Fullname
 
             };
-            var result = await userManager.CreateAsync(user,userRegisterVm.Password);
+            var result = await userManager.CreateAsync(user, userRegisterVm.Password);
             if (!result.Succeeded)
             {
-                foreach(var error in result.Errors)
+                foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError("", error.Description);
-                       
+
                 }
-                return View(userRegisterVm);    
+                return View(userRegisterVm);
             }
             var email = new MimeMessage();
             email.From.Add(MailboxAddress.Parse("allupproje@gmail.com"));
@@ -73,27 +76,27 @@ namespace JuanApp.Controllers
             smtp.Send(email);
             smtp.Disconnect(true);
             return RedirectToAction("Login", "Account");
-          
+
         }
         [HttpPost]
         public async Task<IActionResult> Login(UserLoginVm userLoginVm)
-        {   
+        {
             if (!ModelState.IsValid)
             {
                 return View(userLoginVm);
             }
             AppUser user = await userManager.FindByNameAsync(userLoginVm.UsernameorEmail);
-            if(user is null)
-            
-               user = await userManager.FindByEmailAsync(userLoginVm.UsernameorEmail);
-            if(user is null)
+            if (user is null)
+
+                user = await userManager.FindByEmailAsync(userLoginVm.UsernameorEmail);
+            if (user is null)
             {
                 ModelState.AddModelError("", "Username or Password is incorrect");
                 return View(userLoginVm);
-                    
+
             }
             var result = await signInManager.PasswordSignInAsync(user, userLoginVm.Password, userLoginVm.RememberMe, false);
-           if (!result.Succeeded)
+            if (!result.Succeeded)
             {
                 ModelState.AddModelError("", "Username or password is incorrect");
                 return View(userLoginVm);
@@ -111,16 +114,103 @@ namespace JuanApp.Controllers
         }
         public async Task<IActionResult> CreateRole()
         {
-           if(!await RoleManager.RoleExistsAsync("Admin"))
+            if (!await RoleManager.RoleExistsAsync("Admin"))
             {
                 await RoleManager.CreateAsync(new IdentityRole("Admin"));
             }
-           if(!await RoleManager.RoleExistsAsync("Member"))
+            if (!await RoleManager.RoleExistsAsync("Member"))
             {
-               await RoleManager.CreateAsync(new IdentityRole("Member"));
+                await RoleManager.CreateAsync(new IdentityRole("Member"));
             }
-           return Json("Roles are created");
+            return Json("Roles are created");
+        }
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
         }
 
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordVm model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var user = await userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                // Don't reveal that the user does not exist
+                return RedirectToAction("ForgotPasswordConfirmation");
+            }
+
+            var token = await userManager.GeneratePasswordResetTokenAsync(user);
+            var callbackUrl = Url.Action("ResetPassword", "AdminAccount",
+                new { email = model.Email, token = token }, protocol: Request.Scheme);
+
+            // Send email with the callback URL
+            // TODO: Implement your email sending logic here
+            // Example: await _emailSender.SendEmailAsync(model.Email, "Reset Password",
+            //    $"Please reset your password by clicking here: <a href='{callbackUrl}'>link</a>");
+
+            return RedirectToAction("ForgotPasswordConfirmation");
+        }
+
+        [AllowAnonymous]
+        public IActionResult ForgotPasswordConfirmation()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult ResetPassword(string email, string token)
+        {
+            if (email == null || token == null)
+            {
+                return BadRequest("Invalid password reset token");
+            }
+
+            var model = new ResetPasswordVm
+            {
+                Email = email,
+                Token = token
+            };
+            return View(model);
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordVm model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var user = await userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                // Don't reveal that the user does not exist
+                return RedirectToAction("ResetPasswordConfirmation");
+            }
+
+            var result = await userManager.ResetPasswordAsync(user, model.Token, model.Password);
+            if (result.Succeeded)
+            {
+                return RedirectToAction("ResetPasswordConfirmation");
+            }
+
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
+            return View(model);
+        }
+
+        [AllowAnonymous]
+        public IActionResult ResetPasswordConfirmation()
+        {
+            return View();
+        }
     }
 }

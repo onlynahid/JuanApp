@@ -12,11 +12,12 @@ namespace JuanApp.Models
         public string? WishListIcon { get; set; }
         public string? AddtocartIcon { get; set; }
         public string? QuickViewIcon { get; set; }
-        public string? WishlistUrl { get; set; }
-        public string? AddtoCartUrl { get; set; }
-        public string? QuickViewUrl { get; set; }
         public string Name { get; set; }
         public string? DetailUrl { get; set; }
-
+        public string DetailDescription { get; set; }
+        public bool InStock { get; set; }
+        public Color? Color { get; set; }
+        public int? ColorId { get; set; }
+        
     }
 }

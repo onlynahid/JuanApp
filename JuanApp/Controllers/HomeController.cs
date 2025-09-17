@@ -3,6 +3,7 @@ using JuanApp.Models;
 using JuanApp.Models.Data;
 using JuanApp.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace JuanApp.Controllers
 {
@@ -21,7 +22,9 @@ namespace JuanApp.Controllers
             {
                 sliders = _context.sliders.ToList(),
                 services = _context.services.ToList(),
-                products = _context.products.ToList(),
+                products = _context.products
+                .Include(col=>col.Color)
+                .ToList(),
                 productitles = _context.productTitles.FirstOrDefault(),
                 productAdvertising = _context.productAdvertisings.ToList(),
                 newProductsTitles = _context.newProductstitle.FirstOrDefault(),
@@ -30,7 +33,7 @@ namespace JuanApp.Controllers
                 blogs = _context.blogs.ToList()
             };
             return View(model);
-           ;
+           
         }
 
        

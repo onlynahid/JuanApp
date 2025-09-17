@@ -15,6 +15,7 @@ namespace JuanApp.Areas.Manage.Controllers
         SignInManager<AppUser> signInManager
 
         )
+
         
         : Controller
     {
@@ -35,25 +36,37 @@ namespace JuanApp.Areas.Manage.Controllers
                 return Json(result.Errors); // səhvləri göstər
             }
             return Json(result);
+        
+           
 
 
         }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
         public async Task<IActionResult> Login(AdminLoginVm adminLoginVm)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return View(adminLoginVm);
             }
             var admin = await userManager.FindByNameAsync(adminLoginVm.UserName);
-            if(admin == null)
+            if (admin == null)
             {
-                ModelState.AddModelError("UserName","UserName or Password is incorrect");
+                ModelState.AddModelError("UserName", "UserName or Password is incorrect");
                 return View(adminLoginVm);
             }
             var roles = await userManager.IsInRoleAsync(admin, "Admin");
             if (!roles)
             {
-                ModelState.AddModelError("","Something went error");
+                ModelState.AddModelError("", "Something went error");
                 return View(adminLoginVm);
             }
             var password = await userManager.CheckPasswordAsync(admin, adminLoginVm.Password);
@@ -64,8 +77,11 @@ namespace JuanApp.Areas.Manage.Controllers
             }
             await signInManager.SignInAsync(admin, true);
             return RedirectToAction("Index", "Dashboard");
-
-
         }
-    }
-}
+       
+
+
+           
+            }
+        }
+

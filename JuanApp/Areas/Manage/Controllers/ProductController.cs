@@ -15,77 +15,57 @@ namespace JuanApp.Areas.Manage.Controllers
     {
         public IActionResult Index()
         {
-            var books = _context.products.ToList();
+            var datas = _context.products
+                .Include(col => col.Color)
+                .ToList();
 
-            return View(books);
+            return View(datas);
         }
         [HttpGet]
         public IActionResult Add()
         {
             return View();
         }
-        [HttpPost]
-        public IActionResult Add(Products products)
-        {
-            if (!ModelState.IsValid)
-            {
-                return View();
-            }
-            if (string.IsNullOrWhiteSpace(products.Name))
-            {
-                return BadRequest();
-            }
-            if (_context.products.Any(p => p.Name.ToLower() == products.Name.ToLower()))
-            {
-                ModelState.AddModelError("Name", "This name already exists");
-                return View();
-            }
-            _context.products.Add(products);
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
-        }
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            Products products = _context.products.FirstOrDefault(p => p.Id == id);
-            if (products == null)
+            var product = _context.products.Find(id);
+            if (product == null)
             {
                 return NotFound();
             }
-            return View(products);
+            return View(product);
         }
+
         [HttpPost]
         public IActionResult Edit(Products products)
         {
             if (!ModelState.IsValid)
             {
-                return View();
+                return View(products);
             }
-            Products existproducts = _context.products.FirstOrDefault(p => p.Id == products.Id);
-            if (existproducts == null)
+
+            var existingProduct = _context.products.Find(products.Id);
+            if (existingProduct == null)
             {
                 return NotFound();
             }
-            if (string.IsNullOrWhiteSpace(products.Name))
-            {
-                return BadRequest();
-            }
+
             if (_context.products.Any(p => p.Id != products.Id && p.Name.ToLower() == products.Name.ToLower()))
             {
-                ModelState.AddModelError("Name", "This name already exists");
-                return View();
+                ModelState.AddModelError("Name", "Bu ad artıq mövcuddur");
+                return View(products);
             }
-            existproducts.Name = products.Name;
-            existproducts.Imageurl = products.Imageurl;
-            existproducts.Price = products.Price;
-            existproducts.DiscountPrice = products.DiscountPrice;
-            existproducts.WishListIcon = products.WishListIcon;
-            existproducts.AddtocartIcon = products.AddtocartIcon;
-            existproducts.QuickViewIcon = products.QuickViewIcon;
-            existproducts.WishlistUrl = products.WishlistUrl;
-            existproducts.AddtoCartUrl = products.AddtoCartUrl;
-            existproducts.QuickViewUrl = products.QuickViewUrl;
-            existproducts.DetailUrl = products.DetailUrl;
+
+            existingProduct.Name = products.Name;
+            existingProduct.Imageurl = products.Imageurl;
+            existingProduct.Price = products.Price;
+            existingProduct.DiscountPrice = products.DiscountPrice;
+            existingProduct.WishListIcon = products.WishListIcon;
+            existingProduct.AddtocartIcon = products.AddtocartIcon;
+            existingProduct.QuickViewIcon = products.QuickViewIcon;
+            existingProduct.DetailUrl = products.DetailUrl;
+
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }

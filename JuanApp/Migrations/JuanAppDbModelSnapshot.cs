@@ -137,6 +137,23 @@ namespace JuanApp.Migrations
                     b.ToTable("blogs");
                 });
 
+            modelBuilder.Entity("JuanApp.Models.Color", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Colors");
+                });
+
             modelBuilder.Entity("JuanApp.Models.NewProductsTitle", b =>
                 {
                     b.Property<int>("Id")
@@ -224,10 +241,14 @@ namespace JuanApp.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("AddtoCartUrl")
+                    b.Property<string>("AddtocartIcon")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("AddtocartIcon")
+                    b.Property<int?>("ColorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DetailDescription")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DetailUrl")
@@ -240,6 +261,9 @@ namespace JuanApp.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("InStock")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -250,16 +274,12 @@ namespace JuanApp.Migrations
                     b.Property<string>("QuickViewIcon")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("QuickViewUrl")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("WishListIcon")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("WishlistUrl")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("ColorId");
 
                     b.ToTable("products");
                 });
@@ -347,6 +367,23 @@ namespace JuanApp.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("services");
+                });
+
+            modelBuilder.Entity("JuanApp.Models.Settings", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("LogoUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("settings");
                 });
 
             modelBuilder.Entity("JuanApp.Models.Slider", b =>
@@ -513,6 +550,15 @@ namespace JuanApp.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("JuanApp.Models.Products", b =>
+                {
+                    b.HasOne("JuanApp.Models.Color", "Color")
+                        .WithMany()
+                        .HasForeignKey("ColorId");
+
+                    b.Navigation("Color");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

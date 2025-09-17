@@ -1,0 +1,31 @@
+@model Products
+
+<div class="product-item mb-50">
+    <div class="product-thumb">
+        <a href="@Url.Action("Details", "Product", new { id = Model.Id })">
+            <img src="~/assets/img/product/@Model.Imageurl" alt="@Model.Name" />
+        </a>
+    </div>
+    <div class="product-content">
+        <h5 class="product-name">
+            <a href="@Url.Action("Details", "Product", new { id = Model.Id })">@Model.Name</a>
+        </h5>
+        <div class="price-box">
+            <span class="price-regular">$@Model.Price</span>
+            <span class="price-old"><del>$@Model.DiscountPrice</del></span>
+        </div>
+        <div class="product-action-link">
+            <a href="#" class="add-to-wishlist" data-id="@Model.Id" data-toggle="tooltip" title="Wishlist">
+                <i class="@Model.WishListIcon"></i>
+            </a>
+            <a href="#" class="add-to-cart" data-id="@Model.Id" data-toggle="tooltip" title="Add To Cart">
+                <i class="@Model.AddtocartIcon"></i>
+            </a>
+            <a href="#" class="quick-view" data-id="@Model.Id" data-toggle="modal" data-target="#quick_view">
+                <span data-toggle="tooltip" title="Quick View">
+                    <i class="@Model.QuickViewIcon"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>

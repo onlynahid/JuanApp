@@ -34,7 +34,7 @@
             <!-- header top start -->
             <div class="header-top theme-bg">
                 <div class="container">
-                    <div class="row align-items-center">
+          @*           <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="welcome-message">
                                 <p>Welcome to Juan online store</p>
@@ -72,7 +72,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> *@
                 </div>
             </div>
             <!-- header top end -->
@@ -168,27 +168,27 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="shop.html">
-                                                    shop <i class="fa fa-angle-down"></i>
+                                                <a asp-controller="Shop"action="Index">
+                                                    Shop
                                                 </a>
                                                 <ul class="dropdown">
                                                     <li>
                                                         <a href="#">
-                                                            shop grid layout
+                                                            shop grid layout test 35353535
                                                             <i class="fa fa-angle-right"></i>
                                                         </a>
                                                         <ul class="dropdown">
                                                             <li>
-                                                                <a href="shop.html">shop grid left sidebar</a>
+                                                                <a asp-controller="Shop" action="Index">shop grid left sidebar</a>
                                                             </li>
                                                             <li>
-                                                                <a href="shop-grid-right-sidebar.html">shop grid right sidebar</a>
+                                                                <a asp-controller="Shop" action="Index">shop grid right sidebar</a>
                                                             </li>
                                                             <li>
-                                                                <a href="shop-grid-full-3-col.html">shop grid full 3 col</a>
+                                                                <a asp-controller="Shop" action="Index">shop grid full 3 col</a>
                                                             </li>
                                                             <li>
-                                                                <a href="shop-grid-full-4-col.html">shop grid full 4 col</a>
+                                                                <a asp-controller="Shop" action="Index">shop grid full 4 col</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -373,7 +373,7 @@
                 <!-- mobile menu start -->
                 <div class="mobile-navigation">
                     <!-- mobile menu navigation start -->
-                    <nav>
+                  @*   <nav>
                         <ul class="mobile-menu">
                             <li class="menu-item-has-children">
                                 <a href="index.html">Home</a>
@@ -439,7 +439,7 @@
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">shop</a>
+                                <a asp-controller="Shop"asp-action="Index">Magaza</a>
                                 <ul class="dropdown">
                                     <li class="menu-item-has-children">
                                         <a href="#">shop grid layout</a>
@@ -513,9 +513,9 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="contact-us.html">Contact us</a></li>
+                            <li><a href="contact-us.html">Contact uss</a></li>
                         </ul>
-                    </nav>
+                    </nav> *@
                     <!-- mobile menu navigation end -->
                 </div>
                 <!-- mobile menu end -->
@@ -912,6 +912,9 @@
     <script src="~/assets/js/plugins.js"></script>
     <!--=== Active Js ===-->
     <script src="~/assets/js/active.js"></script>
+    @section Scripts {
+        <script src="~/js/cart.js"></script>
+    }
 </body>
 
 <!-- Mirrored from demo.hasthemes.com/juan-preview-v1/juan/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Mar 2021 22:36:53 GMT -->

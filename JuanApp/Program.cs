@@ -2,6 +2,7 @@ using JuanApp.Models;
 using JuanApp.Models.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
@@ -15,7 +16,7 @@ namespace JuanApp
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-         
+            builder.Services.AddTransient<IEmailSender, EmailSender>();     
 
             builder.Services.AddDbContext<JuanAppDb>(options =>
             {
@@ -34,13 +35,21 @@ namespace JuanApp
                 opt.Lockout.AllowedForNewUsers = true;
                 opt.SignIn.RequireConfirmedEmail = true;
 
-            }).AddEntityFrameworkStores<JuanAppDb>();
+            })
+                .AddDefaultTokenProviders()
+                .AddEntityFrameworkStores<JuanAppDb>();
 
-           
+            // Add session services
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+
+            builder.Services.AddAuthorization();
+
             var app = builder.Build();
-
-
-      
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -57,20 +66,18 @@ namespace JuanApp
             app.UseAuthentication();
             app.UseAuthorization();
 
+            app.UseSession();
+
             app.MapControllerRoute(
            name: "areas",
          pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
         );
-
 
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
-
-      
-           
         }
     }
 }

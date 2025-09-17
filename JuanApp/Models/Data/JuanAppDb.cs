@@ -19,6 +19,8 @@ namespace JuanApp.Models.Data
         public DbSet<ProductsNew> productsnew { get; set; }
         public DbSet<BlogTitle> blogtitle { get; set; }
         public DbSet<Blogs> blogs { get; set; }
+        public DbSet<Color> Colors { get; set; }
+        public DbSet<Settings> settings { get; set; }
 
 
 
