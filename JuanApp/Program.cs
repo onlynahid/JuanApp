@@ -1,5 +1,6 @@
 using JuanApp.Models;
 using JuanApp.Models.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -48,7 +49,44 @@ namespace JuanApp
             });
 
             builder.Services.AddAuthorization();
-
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Account/Login";
+                options.LogoutPath = "/Account/Logout";
+                options.AccessDeniedPath = "/Account/AccessDenied";
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+                options.SlidingExpiration = true;
+                options.Cookie.Name = "JuanApp.Auth";
+                
+                options.Events = new CookieAuthenticationEvents
+                {
+                    OnRedirectToLogin = context =>
+                    {
+                        if (context.Request.Path.StartsWithSegments("/manage", StringComparison.OrdinalIgnoreCase))
+                        {
+                            context.Response.Redirect($"/manage/adminaccount/login?returnUrl={context.Request.Path}{context.Request.QueryString}");
+                        }
+                        else
+                        {
+                            context.Response.Redirect($"/account/login?returnUrl={context.Request.Path}{context.Request.QueryString}");
+                        }
+                        return Task.CompletedTask;
+                    },
+                    
+                    OnRedirectToAccessDenied = context =>
+                    {
+                        if (context.Request.Path.StartsWithSegments("/manage", StringComparison.OrdinalIgnoreCase))
+                        {
+                            context.Response.Redirect($"/manage/adminaccount/accessdenied?returnUrl={context.Request.Path}{context.Request.QueryString}");
+                        }
+                        else
+                        {
+                            context.Response.Redirect($"/account/accessdenied?returnUrl={context.Request.Path}{context.Request.QueryString}");
+                        }
+                        return Task.CompletedTask;
+                    }
+                };
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

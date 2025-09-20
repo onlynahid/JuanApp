@@ -13,13 +13,9 @@ namespace JuanApp.Areas.Manage.Controllers
         (
         UserManager<AppUser> userManager,
         SignInManager<AppUser> signInManager
-
         )
-
-        
         : Controller
     {
-      
         public async Task<IActionResult> CreateAdmin()
         {
             AppUser admin = new AppUser
@@ -35,6 +31,7 @@ namespace JuanApp.Areas.Manage.Controllers
             {
                 return Json(result.Errors); // səhvləri göstər
             }
+            await userManager.AddToRoleAsync(admin, "Admin");
             return Json(result);
         
            
@@ -63,10 +60,9 @@ namespace JuanApp.Areas.Manage.Controllers
                 ModelState.AddModelError("UserName", "UserName or Password is incorrect");
                 return View(adminLoginVm);
             }
-            var roles = await userManager.IsInRoleAsync(admin, "Admin");
-            if (!roles)
+           if(!await userManager.IsInRoleAsync(admin, "Admin"))
             {
-                ModelState.AddModelError("", "Something went error");
+                ModelState.AddModelError("UserName", "UserName or Password is incorrect");
                 return View(adminLoginVm);
             }
             var password = await userManager.CheckPasswordAsync(admin, adminLoginVm.Password);

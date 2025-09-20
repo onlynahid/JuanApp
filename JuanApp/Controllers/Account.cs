@@ -75,6 +75,7 @@ namespace JuanApp.Controllers
             smtp.Authenticate("allupproje@gmail.com", "pqrf fcbl fmvy kkzf");
             smtp.Send(email);
             smtp.Disconnect(true);
+            await userManager.AddToRoleAsync(user, "Member");
             return RedirectToAction("Login", "Account");
 
         }
@@ -99,6 +100,11 @@ namespace JuanApp.Controllers
             if (!result.Succeeded)
             {
                 ModelState.AddModelError("", "Username or password is incorrect");
+                return View(userLoginVm);
+            }
+            if (!await userManager.IsInRoleAsync(user, "Member"))
+            {
+                ModelState.AddModelError("UserName", "UserName or Password is incorrect");
                 return View(userLoginVm);
             }
             return RedirectToAction("Index", "Home");
