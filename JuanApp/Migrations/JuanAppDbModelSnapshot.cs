@@ -91,6 +91,33 @@ namespace JuanApp.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("JuanApp.Models.BasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("ProductsId");
+
+                    b.ToTable("basketitem");
+                });
+
             modelBuilder.Entity("JuanApp.Models.BlogTitle", b =>
                 {
                     b.Property<int>("Id")
@@ -552,6 +579,25 @@ namespace JuanApp.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("JuanApp.Models.BasketItem", b =>
+                {
+                    b.HasOne("JuanApp.Models.AppUser", "appUser")
+                        .WithMany("basketitems")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("JuanApp.Models.Products", "products")
+                        .WithMany()
+                        .HasForeignKey("ProductsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("appUser");
+
+                    b.Navigation("products");
+                });
+
             modelBuilder.Entity("JuanApp.Models.Products", b =>
                 {
                     b.HasOne("JuanApp.Models.Color", "Color")
@@ -610,6 +656,11 @@ namespace JuanApp.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("JuanApp.Models.AppUser", b =>
+                {
+                    b.Navigation("basketitems");
                 });
 #pragma warning restore 612, 618
         }

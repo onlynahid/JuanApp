@@ -1,0 +1,42 @@
+@model dynamic
+
+<div class="minicart-content-box">
+    <div class="minicart-item-wrapper">
+        <ul>
+            @foreach (var item in Model.Items)
+            {
+                <li class="minicart-item">
+                    <div class="minicart-thumb">
+                        <a href="/Product/Details/@item.PeoductId">
+                            <img src="/assets/img/product/@item.Image" alt="@item.Name">
+                        </a>
+                    </div>
+                    <div class="minicart-content">
+                        <h3 class="product-name">
+                            <a href="/Product/Details/@item.PeoductId">@item.Name</a>
+                        </h3>
+                        <p>
+                            <span class="cart-quantity">@item.Count <strong>&times;</strong></span>
+                            <span class="cart-price">$@item.Price</span>
+                        </p>
+                    </div>
+                    <button class="minicart-remove" data-id="@item.PeoductId"><i class="ion-android-close"></i></button>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div class="minicart-pricing-box">
+        <ul>
+            <li class="total">
+                <span>Total</span>
+                <span><strong>$@Model.TotalPrice</strong></span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="minicart-button">
+        <a href="@Url.Action("Index", "Basket")"><i class="fa fa-shopping-cart"></i> view cart</a>
+        <a href="@Url.Action("Checkout", "Basket")"><i class="fa fa-share"></i> checkout</a>
+    </div>
+</div>

@@ -3,6 +3,130 @@
   "WorkspaceRootPath": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\wwwroot\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\wwwroot\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\views\\shared\\_basketpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\shared\\_basketpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250917141224_mig_007.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250917141224_mig_007.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250921202450_mig_008.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250921202450_mig_008.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\models\\data\\juanappdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\data\\juanappdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\viewmodels\\basketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\viewmodels\\basketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\models\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\areas\\manage\\views\\shared\\_basketpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\areas\\manage\\views\\shared\\_basketpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250912142615_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250912142615_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250912152325_mig_002.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250912152325_mig_002.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\models\\productsnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\productsnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\juanappdbmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\juanappdbmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250917141224_mig_007.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250917141224_mig_007.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250917131821_mig_006.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250917131821_mig_006.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250916162241_mig_005.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250916162241_mig_005.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250915160559_mig_004.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250915160559_mig_004.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250912142615_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250912142615_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\views\\shared\\_productcardpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\shared\\_productcardpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250912173809_mig_003.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250912173809_mig_003.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250915160559_mig_004.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250915160559_mig_004.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250916162241_mig_005.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250916162241_mig_005.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\controllers\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,44 +151,8 @@
       "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\areas\\manage\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250912173809_mig_003.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250912173809_mig_003.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250915160559_mig_004.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250915160559_mig_004.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250916162241_mig_005.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250916162241_mig_005.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\models\\data\\juanappdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\data\\juanappdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\migrations\\20250917141224_mig_007.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\migrations\\20250917141224_mig_007.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\models\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\controllers\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\models\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,14 +167,6 @@
       "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\viewmodels\\shopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917130723_mig_006.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JuanApp\\Migrations\\20250917130723_mig_006.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -97,18 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917130400_mig_006.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JuanApp\\Migrations\\20250917130400_mig_006.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\views\\shared\\_productcardpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\views\\shared\\_productcardpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{282B9F2E-3412-4DCB-90CF-02572C5E36AE}|JuanApp\\JuanApp.csproj|c:\\users\\azsoft\\desktop\\juanapp\\juanapp\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -198,50 +266,406 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "_BasketPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shared\\_BasketPartial.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Views\\Shared\\_BasketPartial.cshtml",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shared\\_BasketPartial.cshtml",
+              "RelativeToolTip": "JuanApp\\Views\\Shared\\_BasketPartial.cshtml",
+              "ViewState": "AgIAABwAAACAkWfOOxIswCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-20T16:57:24.25Z",
+              "WhenOpened": "2025-09-21T20:47:32.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "20250921202450_mig_008.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250921202450_mig_008.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250921202450_mig_008.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250921202450_mig_008.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250921202450_mig_008.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T15:51:44.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\AdminAccount\\Login.cshtml",
-              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Views\\AdminAccount\\Login.cshtml",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\AdminAccount\\Login.cshtml",
-              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Views\\AdminAccount\\Login.cshtml",
-              "ViewState": "AgIAADIAAAAAAAAAAAAkwDoAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T22:04:55.124Z",
+              "WhenOpened": "2025-09-21T20:24:50.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "JuanApp\\Controllers\\BasketController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAvwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T19:33:54.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JuanAppDb.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\Data\\JuanAppDb.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Models\\Data\\JuanAppDb.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\Data\\JuanAppDb.cs",
+              "RelativeToolTip": "JuanApp\\Models\\Data\\JuanAppDb.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T12:41:48.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "JuanApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAswGoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T23:06:49.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\wwwroot\\assets\\js\\main.js",
+              "RelativeDocumentMoniker": "JuanApp\\wwwroot\\assets\\js\\main.js",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\wwwroot\\assets\\js\\main.js",
+              "RelativeToolTip": "JuanApp\\wwwroot\\assets\\js\\main.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-20T19:57:25.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "JuanApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIYDAAAAAAAAAAAswJwDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-15T20:55:11.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BasketVm.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\ViewModels\\BasketVm.cs",
+              "RelativeDocumentMoniker": "JuanApp\\ViewModels\\BasketVm.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\ViewModels\\BasketVm.cs",
+              "RelativeToolTip": "JuanApp\\ViewModels\\BasketVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T17:20:05.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BasketItem.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\BasketItem.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Models\\BasketItem.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\BasketItem.cs",
+              "RelativeToolTip": "JuanApp\\Models\\BasketItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T17:04:46.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\AppUser.cs",
+              "RelativeToolTip": "JuanApp\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T17:07:29.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250917141224_mig_007.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917141224_mig_007.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250917141224_mig_007.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917141224_mig_007.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250917141224_mig_007.cs",
+              "ViewState": "AgIAAEUAAACAfu7nfi4mwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T14:12:25.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "JuanApp\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAADgDAAAAAAAAAAAAADwDAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-15T20:56:54.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "JuanApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T11:39:27.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250912142615_Init.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250912142615_Init.Designer.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250912142615_Init.Designer.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250912142615_Init.Designer.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250912142615_Init.Designer.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAkwHEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:12:18.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_BasketPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Shared\\_BasketPartial.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Views\\Shared\\_BasketPartial.cshtml",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Shared\\_BasketPartial.cshtml",
+              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Views\\Shared\\_BasketPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T20:59:42.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250912152325_mig_002.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250912152325_mig_002.Designer.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250912152325_mig_002.Designer.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250912152325_mig_002.Designer.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250912152325_mig_002.Designer.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAkwNoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:14:02.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductsNew.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\ProductsNew.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Models\\ProductsNew.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\ProductsNew.cs",
+              "RelativeToolTip": "JuanApp\\Models\\ProductsNew.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:14:17.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "JuanAppDbModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\JuanAppDbModelSnapshot.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\JuanAppDbModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\JuanAppDbModelSnapshot.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\JuanAppDbModelSnapshot.cs",
+              "ViewState": "AgIAABoBAAAAAAAAAAAkwCoBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:14:16.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250917141224_mig_007.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917141224_mig_007.Designer.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250917141224_mig_007.Designer.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917141224_mig_007.Designer.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250917141224_mig_007.Designer.cs",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAkwCkBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:14:13.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250917131821_mig_006.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917131821_mig_006.Designer.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250917131821_mig_006.Designer.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917131821_mig_006.Designer.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250917131821_mig_006.Designer.cs",
+              "ViewState": "AgIAADMBAAAAAAAAAAAkwEMBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:14:10.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250916162241_mig_005.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250916162241_mig_005.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250916162241_mig_005.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250916162241_mig_005.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250916162241_mig_005.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:14:09.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250915160559_mig_004.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250915160559_mig_004.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250915160559_mig_004.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250915160559_mig_004.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250915160559_mig_004.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAkwIUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:14:06.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250912142615_Init.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250912142615_Init.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250912142615_Init.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250912142615_Init.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250912142615_Init.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAkwFMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:12:13.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250915160559_mig_004.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250915160559_mig_004.Designer.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250915160559_mig_004.Designer.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250915160559_mig_004.Designer.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250915160559_mig_004.Designer.cs",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAkwBkBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T14:51:12.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250912173809_mig_003.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250912173809_mig_003.Designer.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250912173809_mig_003.Designer.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250912173809_mig_003.Designer.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250912173809_mig_003.Designer.cs",
+              "ViewState": "AgIAABABAAAAAAAAAAAkwCABAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T14:51:06.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "cart.js",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\wwwroot\\js\\cart.js",
+              "RelativeDocumentMoniker": "JuanApp\\wwwroot\\js\\cart.js",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\wwwroot\\js\\cart.js",
+              "RelativeToolTip": "JuanApp\\wwwroot\\js\\cart.js",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-17T12:14:43.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ProductCardPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shared\\_ProductCardPartial.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Views\\Shared\\_ProductCardPartial.cshtml",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shared\\_ProductCardPartial.cshtml",
+              "RelativeToolTip": "JuanApp\\Views\\Shared\\_ProductCardPartial.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T12:14:29.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T15:15:18.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250916162241_mig_005.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250916162241_mig_005.Designer.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250916162241_mig_005.Designer.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250916162241_mig_005.Designer.cs",
+              "RelativeToolTip": "JuanApp\\Migrations\\20250916162241_mig_005.Designer.cs",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAkwC0BAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T14:51:15.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Controllers\\Shop.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Controllers\\Shop.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Controllers\\Shop.cs",
+              "RelativeToolTip": "JuanApp\\Controllers\\Shop.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T11:35:02.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Models\\Products.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\Products.cs",
+              "RelativeToolTip": "JuanApp\\Models\\Products.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T12:49:20.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Program.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Program.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Program.cs",
+              "RelativeToolTip": "JuanApp\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwFYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T21:53:05.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "AdminAccountController.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\AdminAccountController.cs",
               "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Controllers\\AdminAccountController.cs",
@@ -249,25 +673,47 @@
               "RelativeToolTip": "JuanApp\\Areas\\Manage\\Controllers\\AdminAccountController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAYwDIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T22:07:41.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T22:07:41.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Program.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Program.cs",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Program.cs",
-              "RelativeToolTip": "JuanApp\\Program.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAApwFAAAAACAAAAAAAAAA==",
+              "DocumentIndex": 34,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\AdminAccount\\Login.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Views\\AdminAccount\\Login.cshtml",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\AdminAccount\\Login.cshtml",
+              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Views\\AdminAccount\\Login.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwDoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T22:04:55.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T16:57:24.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T21:53:05.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T15:51:44.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 33,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Controllers\\Account.cs",
               "RelativeDocumentMoniker": "JuanApp\\Controllers\\Account.cs",
@@ -275,116 +721,11 @@
               "RelativeToolTip": "JuanApp\\Controllers\\Account.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAkwGsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T22:46:18.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T22:46:18.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "JuanApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwBQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T11:39:27.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250912173809_mig_003.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250912173809_mig_003.Designer.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250912173809_mig_003.Designer.cs",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250912173809_mig_003.Designer.cs",
-              "RelativeToolTip": "JuanApp\\Migrations\\20250912173809_mig_003.Designer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T14:51:06.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250915160559_mig_004.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250915160559_mig_004.Designer.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250915160559_mig_004.Designer.cs",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250915160559_mig_004.Designer.cs",
-              "RelativeToolTip": "JuanApp\\Migrations\\20250915160559_mig_004.Designer.cs",
-              "ViewState": "AgIAAB8CAAAAAAAAAAAkwDQCAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T14:51:12.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250916162241_mig_005.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250916162241_mig_005.Designer.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250916162241_mig_005.Designer.cs",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250916162241_mig_005.Designer.cs",
-              "RelativeToolTip": "JuanApp\\Migrations\\20250916162241_mig_005.Designer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T14:51:15.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20250917141224_mig_007.cs",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917141224_mig_007.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250917141224_mig_007.cs",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917141224_mig_007.cs",
-              "RelativeToolTip": "JuanApp\\Migrations\\20250917141224_mig_007.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T14:12:25.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "JuanApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "JuanApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADoBAAAAAAAAAAAswEcBAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T20:55:11.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "JuanAppDb.cs",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\Data\\JuanAppDb.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Models\\Data\\JuanAppDb.cs",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\Data\\JuanAppDb.cs",
-              "RelativeToolTip": "JuanApp\\Models\\Data\\JuanAppDb.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAUAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T12:41:48.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "JuanApp\\Views\\Shop\\Index.cshtml",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "JuanApp\\Views\\Shop\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAmwKMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T20:56:54.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 39,
               "Title": "jquery.dataTables.js",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\wwwroot\\admin\\vendor\\datatables\\jquery.dataTables.js",
               "RelativeDocumentMoniker": "JuanApp\\wwwroot\\admin\\vendor\\datatables\\jquery.dataTables.js",
@@ -392,12 +733,11 @@
               "RelativeToolTip": "JuanApp\\wwwroot\\admin\\vendor\\datatables\\jquery.dataTables.js",
               "ViewState": "AgIAAGIUAAAAAAAAAAAswG8UAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-17T13:43:29.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T13:43:29.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 38,
               "Title": "HomeVm.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\ViewModels\\HomeVm.cs",
               "RelativeDocumentMoniker": "JuanApp\\Models\\ViewModels\\HomeVm.cs",
@@ -405,12 +745,11 @@
               "RelativeToolTip": "JuanApp\\Models\\ViewModels\\HomeVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T13:44:12.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T13:44:12.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 37,
               "Title": "Settings.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\Settings.cs",
               "RelativeDocumentMoniker": "JuanApp\\Models\\Settings.cs",
@@ -418,12 +757,11 @@
               "RelativeToolTip": "JuanApp\\Models\\Settings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T14:08:05.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T14:08:05.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 40,
               "Title": "ShopVm.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\ViewModels\\ShopVm.cs",
               "RelativeDocumentMoniker": "JuanApp\\ViewModels\\ShopVm.cs",
@@ -431,51 +769,11 @@
               "RelativeToolTip": "JuanApp\\ViewModels\\ShopVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T11:40:16.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T11:40:16.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Shop.cs",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Controllers\\Shop.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Controllers\\Shop.cs",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Controllers\\Shop.cs",
-              "RelativeToolTip": "JuanApp\\Controllers\\Shop.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAowCwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T11:35:02.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\Products.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Models\\Products.cs",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\Products.cs",
-              "RelativeToolTip": "JuanApp\\Models\\Products.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIA2wBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T12:49:20.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "JuanApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "JuanApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T23:06:49.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 63,
               "Title": "20250917131821_mig_006.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917131821_mig_006.cs",
               "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250917131821_mig_006.cs",
@@ -483,12 +781,11 @@
               "RelativeToolTip": "JuanApp\\Migrations\\20250917131821_mig_006.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T13:18:22.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T13:18:22.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 41,
               "Title": "20250917130723_mig_006.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917130723_mig_006.cs",
               "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250917130723_mig_006.cs",
@@ -499,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 42,
               "Title": "20250917130704_mig_006.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917130704_mig_006.cs",
               "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250917130704_mig_006.cs",
@@ -510,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 43,
               "Title": "20250917130400_mig_006.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Migrations\\20250917130400_mig_006.cs",
               "RelativeDocumentMoniker": "JuanApp\\Migrations\\20250917130400_mig_006.cs",
@@ -521,46 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "cart.js",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\wwwroot\\js\\cart.js",
-              "RelativeDocumentMoniker": "JuanApp\\wwwroot\\js\\cart.js",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\wwwroot\\js\\cart.js",
-              "RelativeToolTip": "JuanApp\\wwwroot\\js\\cart.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-17T12:14:43.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "_ProductCardPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shared\\_ProductCardPartial.cshtml",
-              "RelativeDocumentMoniker": "JuanApp\\Views\\Shared\\_ProductCardPartial.cshtml",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Shared\\_ProductCardPartial.cshtml",
-              "RelativeToolTip": "JuanApp\\Views\\Shared\\_ProductCardPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T12:14:29.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAswEAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T15:15:18.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 44,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Extensions\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "JuanApp\\Extensions\\SessionExtensions.cs",
@@ -568,12 +826,11 @@
               "RelativeToolTip": "JuanApp\\Extensions\\SessionExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T12:16:59.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T12:16:59.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 45,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "JuanApp\\Models\\CartItem.cs",
@@ -581,12 +838,11 @@
               "RelativeToolTip": "JuanApp\\Models\\CartItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAA+wAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T12:16:52.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T12:16:52.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 46,
               "Title": "BlogTitle.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\BlogTitle.cs",
               "RelativeDocumentMoniker": "JuanApp\\Models\\BlogTitle.cs",
@@ -594,12 +850,11 @@
               "RelativeToolTip": "JuanApp\\Models\\BlogTitle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T11:47:31.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T11:47:31.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 47,
               "Title": "ForgotPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "JuanApp\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
@@ -607,12 +862,11 @@
               "RelativeToolTip": "JuanApp\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T23:16:27.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T23:16:27.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 52,
               "Title": "ForgetPasswordVm.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\ViewModels\\ForgetPasswordVm.cs",
               "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\ViewModels\\ForgetPasswordVm.cs",
@@ -620,12 +874,11 @@
               "RelativeToolTip": "JuanApp\\Areas\\Manage\\ViewModels\\ForgetPasswordVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T22:57:36.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T22:57:36.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 51,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "JuanApp\\Views\\Account\\ForgotPassword.cshtml",
@@ -633,12 +886,11 @@
               "RelativeToolTip": "JuanApp\\Views\\Account\\ForgotPassword.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T23:02:47.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T23:02:47.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 50,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "JuanApp\\Views\\Account\\Login.cshtml",
@@ -646,12 +898,11 @@
               "RelativeToolTip": "JuanApp\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAswBQAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T22:05:18.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T22:05:18.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 49,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Services\\EmailSender.cs",
               "RelativeDocumentMoniker": "JuanApp\\Services\\EmailSender.cs",
@@ -659,12 +910,11 @@
               "RelativeToolTip": "JuanApp\\Services\\EmailSender.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAtwC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T23:05:03.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T23:05:03.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 53,
               "Title": "jquery.js",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\wwwroot\\admin\\vendor\\jquery\\jquery.js",
               "RelativeDocumentMoniker": "JuanApp\\wwwroot\\admin\\vendor\\jquery\\jquery.js",
@@ -672,12 +922,11 @@
               "RelativeToolTip": "JuanApp\\wwwroot\\admin\\vendor\\jquery\\jquery.js",
               "ViewState": "AgIAAG0QAAAAAAAAAAAowHkQAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-16T23:07:16.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T23:07:16.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 48,
               "Title": "ForgotPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\Areas\\Manage\\Views\\AdminAccount\\ForgotPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Manage\\Views\\AdminAccount\\ForgotPasswordConfirmation.cshtml",
@@ -685,12 +934,11 @@
               "RelativeToolTip": "Areas\\Manage\\Views\\AdminAccount\\ForgotPasswordConfirmation.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T23:05:57.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T23:05:57.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 54,
               "Title": "jquery.js",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "RelativeDocumentMoniker": "JuanApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
@@ -698,12 +946,11 @@
               "RelativeToolTip": "JuanApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "ViewState": "AgIAAG0QAAAAAAAAAAAowHkQAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-16T23:07:18.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T23:07:18.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 55,
               "Title": "jquery.slim.js",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\wwwroot\\admin\\vendor\\jquery\\jquery.slim.js",
               "RelativeDocumentMoniker": "JuanApp\\wwwroot\\admin\\vendor\\jquery\\jquery.slim.js",
@@ -711,12 +958,11 @@
               "RelativeToolTip": "JuanApp\\wwwroot\\admin\\vendor\\jquery\\jquery.slim.js",
               "ViewState": "AgIAAG0QAAAAAAAAAAAowHkQAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-16T23:07:19.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T23:07:19.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 56,
               "Title": "ResetPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\Areas\\Manage\\Views\\AdminAccount\\ResetPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Manage\\Views\\AdminAccount\\ResetPasswordConfirmation.cshtml",
@@ -724,12 +970,11 @@
               "RelativeToolTip": "Areas\\Manage\\Views\\AdminAccount\\ResetPasswordConfirmation.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T23:06:01.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T23:06:01.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 57,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "JuanApp\\Views\\Account\\ResetPassword.cshtml",
@@ -737,12 +982,11 @@
               "RelativeToolTip": "JuanApp\\Views\\Account\\ResetPassword.cshtml",
               "ViewState": "AgIAAA4AAACAZB4fgOUEwBUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T23:03:31.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T23:03:31.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 58,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Views\\Product\\Edit.cshtml",
@@ -750,12 +994,11 @@
               "RelativeToolTip": "JuanApp\\Areas\\Manage\\Views\\Product\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T16:20:41.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T16:20:41.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 62,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Add.cshtml",
               "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Views\\Product\\Add.cshtml",
@@ -763,12 +1006,11 @@
               "RelativeToolTip": "JuanApp\\Areas\\Manage\\Views\\Product\\Add.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T15:23:22.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T15:23:22.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 60,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "JuanApp\\Views\\Product\\Index.cshtml",
@@ -776,12 +1018,11 @@
               "RelativeToolTip": "JuanApp\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T21:45:20.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T21:45:20.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 59,
               "Title": "ProductAdvertising.cs",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Models\\ProductAdvertising.cs",
               "RelativeDocumentMoniker": "JuanApp\\Models\\ProductAdvertising.cs",
@@ -789,12 +1030,11 @@
               "RelativeToolTip": "JuanApp\\Models\\ProductAdvertising.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T21:45:27.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T21:45:27.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 61,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\AzSoft\\Desktop\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "JuanApp\\Areas\\Manage\\Views\\Product\\Index.cshtml",
@@ -802,8 +1042,7 @@
               "RelativeToolTip": "JuanApp\\Areas\\Manage\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAABkAAAAAAAAAAIBJwDQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T15:15:21.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T15:15:21.772Z"
             }
           ]
         }

@@ -21,6 +21,7 @@ namespace JuanApp.Models.Data
         public DbSet<Blogs> blogs { get; set; }
         public DbSet<Color> Colors { get; set; }
         public DbSet<Settings> settings { get; set; }
+        public DbSet<BasketItem> basketitem { get; set; }
 
 
 

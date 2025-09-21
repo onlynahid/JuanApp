@@ -277,10 +277,10 @@ C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\staticwebassets.build.j
 C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\JuanApp.csproj.Up2Date
 C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\JuanApp.dll
 C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\refint\JuanApp.dll
 C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\JuanApp.pdb
 C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\JuanApp.genruntimeconfig.cache
 C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\ref\JuanApp.dll
+C:\Users\AzSoft\Desktop\JuanApp\JuanApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
